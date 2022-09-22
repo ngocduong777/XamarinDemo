@@ -30,5 +30,22 @@ namespace XamarinDemo
             Navigation.PushAsync(new PageDangNhap_code());
 
         }
+
+        private void cmdHinh_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageHinhAnh());
+        }
+
+        private void cmddangnhapgrid_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageDangNhapGrid());
+
+        }
+
+        private void cmdBangtinh_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PageMaytinh());
+
+        }
     }
 }

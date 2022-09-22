@@ -9,7 +9,10 @@
         </Frame>
         <Button x:Name="cmdStackLayout" Text="Stack Layout" Clicked="cmdStacklayout_Clicked"/>
         <Button x:Name="cmddangnhap" Text="Dang nhap" Clicked="cmddangnhap_Clicked"/>
+        <Button x:Name="cmddangnhapgrid" Text="Dang nhap grid" Clicked="cmddangnhapgrid_Clicked"/>
         <Button x:Name="cmddangnhapCode" Text="Dang nhap (Code)" Clicked="cmddangnhapCode_Clicked"/>
+        <Button x:Name="cmdHinh" Text="Hinh anh" Clicked="cmdHinh_Clicked"/>
+        <Button x:Name="cmdBangtinh" Text="May tinh" Clicked="cmdBangtinh_Clicked"/>
 
     </StackLayout>
 
