@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTTH1.Bai3"
+             Title="Bai 3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#7DCE13" Padding="20" CornerRadius="20" Margin="20">
+                <StackLayout>
+                    <Label Text="Welcome to Xamarin Forms" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+                </StackLayout>
+            </Frame>
+            <StackLayout>
+                <Entry Placeholder="Name" VerticalOptions="CenterAndExpand"/>
+                <Entry Placeholder="Email" Keyboard="Email" VerticalOptions="CenterAndExpand"/>
+                <Entry Placeholder="Phone" Keyboard="Telephone" VerticalOptions="CenterAndExpand"/>
+                <Entry Placeholder="Password" IsPassword="True" VerticalOptions="CenterAndExpand"/>
+                <Entry Placeholder="Confirm Password" IsPassword="True" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+       
+    </ContentPage.Content>
+
+    
+
+</ContentPage>
