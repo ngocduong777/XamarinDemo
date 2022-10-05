@@ -20,3 +20,8 @@ C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netsta
 C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\XamarinDemo.dll
 C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\ref\XamarinDemo.dll
 C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\XamarinDemo.pdb
+C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\Test.xaml.g.cs
+C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\PageDangky.xaml.g.cs
+C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\PageLoaiHoa.xaml.g.cs
+C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\PageListViewMang.xaml.g.cs
+C:\Users\admin\source\repos\XamarinDemo\XamarinDemo\XamarinDemo\obj\Debug\netstandard2.0\PageHoa.xaml.g.cs

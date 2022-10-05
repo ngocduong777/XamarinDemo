@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDemo.PageDangky">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Thông tin đăng ký"
+                   FontSize="Large" TextColor="red"/>
+                <ActivityIndicator x:Name="tientrinh" IsRunning="True"/>
+                <Image Source="cuoi_1.jpg"/>
+                <ProgressBar x:Name="progresstientrinh" Progress="0"/>
+                <Entry x:Name="txthoten" Keyboard="Text" Placeholder="Nhập họ tên"/>
+                <Entry x:Name="txtemail" Keyboard="Email" Placeholder="Nhập Email"/>
+                <Entry x:Name="txtdienthoai" Keyboard="Telephone" Placeholder="Nhập sđt"/>
+                <Entry x:Name="txtmatkhau" IsPassword="True" Placeholder="Nhập mật khẩu"/>
+                <Editor x:Name="txtdiachi" HeightRequest="100" Placeholder="Nhập địa chỉ"/>
+                <SearchBar x:Name="txtnoisinh" Placeholder="Nhập nơi sinh" SearchButtonPressed="txtnoisinh_SearchButtonPressed"/>
+
+
+                <StackLayout Orientation="Horizontal" Grid.Column="2">
+                    <Label Text="Giới tính"/>
+                    <Switch x:Name="swgioitinh"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Column="3">
+                    <Label Text="Thu nhập"/>
+                    <Slider x:Name="slthunhap" Minimum="0" Maximum="100" WidthRequest="200" Value="10"
+                            ValueChanged="slthunhap_ValueChanged"/>
+                    <Label x:Name="lblthunhap"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Column="3">
+                    <Label Text="Age"/>
+                    <Stepper x:Name="stepperAge" Minimum="0" Maximum="100" WidthRequest="200" Value="10"
+                            ValueChanged="stepperAge_ValueChanged" Increment="5"/>
+                    <Label x:Name="lblage"/>
+                    
+                    
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Grid.Column="3">
+                    <Label Text="Birthday"/>
+                    <DatePicker x:Name="datepickerBirthday" DateSelected="datepickerBirthday_DateSelected"/>
+                    <Label x:Name="lbldatepickerBirthday"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Register Time" />
+                    <TimePicker x:Name="thoigiandangki" />
+                    <Label x:Name="lblgio"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="cmddangky" Text="Dang ky" Clicked="cmddangky_Clicked" />
+                    <ImageButton Source="gio_hang.jpg" x:Name="cmddangnhap" Clicked="cmddangnhap_Clicked"/>
+                </StackLayout>
+                
+            </StackLayout>
+            
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
