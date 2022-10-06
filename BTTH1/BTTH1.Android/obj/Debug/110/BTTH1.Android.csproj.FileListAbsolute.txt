@@ -574,3 +574,4 @@ C:\Users\admin\source\repos\BTTH1\BTTH1\BTTH1.Android\obj\Debug\110\stamp\_Conve
 C:\Users\admin\source\repos\BTTH1\BTTH1\BTTH1.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\admin\source\repos\BTTH1\BTTH1\BTTH1.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\admin\source\repos\BTTH1\BTTH1\BTTH1.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\admin\source\repos\BTTH1\BTTH1\BTTH1.Android\obj\Debug\110\res\drawable\uit.png
