@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace XamarinDemo
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class PageListViewGroup : ContentPage
+    {
+        public PageListViewGroup()
+        {
+            InitializeComponent();
+            lstloaihoa.ItemsSource = DSHoaTheoLoai.KhoiTaoDS();
+        }
+    }
+}

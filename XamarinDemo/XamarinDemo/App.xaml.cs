@@ -10,7 +10,7 @@ namespace XamarinDemo
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PageLoaiHoa());
+            MainPage = new NavigationPage(new PageListViewGroup());
         }
 
         protected override void OnStart()
