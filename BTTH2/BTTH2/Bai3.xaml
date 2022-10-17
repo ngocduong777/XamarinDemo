@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTTH2.Bai3">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="listAnimal" ItemSelected="listAnimal_ItemSelected" RowHeight="150" Margin="5">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+
+                                </Grid.RowDefinitions>
+
+                                <Label  Text="{Binding animalname}" Grid.Column="1" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" FontSize="20" FontAttributes="Bold"/>
+                                <Label  Text="{Binding animaldes}" Grid.Column="1" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="20"/>
+                                <Image  Source="{Binding animalimage}" Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Grid.RowSpan="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

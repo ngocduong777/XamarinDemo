@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTTH2.MainPage"
+             Title="LAB 2">
+
+    <StackLayout>
+        <Frame BackgroundColor="#7DCE13" Padding="20" CornerRadius="20" Margin="20">
+            <StackLayout>
+                <Label Text="Duong Bao Ngoc - 19520777 - BTTH2" HorizontalTextAlignment="Center" TextColor="White" FontSize="25"/>
+            </StackLayout>
+        </Frame>
+        <StackLayout>
+            <Button x:Name="btn1" Text="Bai 1" Clicked="btn1_Clicked" Background="#21E1E1" CornerRadius="20" Margin="10"></Button>
+            <Button x:Name="btn2" Text="Bai 2" Clicked="btn2_Clicked" Background="#21E1E1" CornerRadius="20" Margin="10"></Button>
+            <Button x:Name="btn3" Text="Bai 3" Clicked="btn3_Clicked" Background="#21E1E1" CornerRadius="20" Margin="10"></Button>
+    
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

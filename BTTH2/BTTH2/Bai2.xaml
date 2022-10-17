@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTTH2.Bai2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="booking.png" HorizontalOptions="CenterAndExpand" HeightRequest="20" Margin="10"/>
+            <ListView x:Name="listCity" ItemSelected="listCity_ItemSelected" RowHeight="150" Margin="5">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    
+                                </Grid.RowDefinitions>
+                                
+                                <Label  Text="{Binding cityname}" Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="20"/>
+                                <Image  Source="{Binding cityimage}" Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
