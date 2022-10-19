@@ -1,0 +1,17 @@
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\bin\Debug\netstandard2.0\SQLiteDemo.deps.json
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\bin\Debug\netstandard2.0\SQLiteDemo.dll
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\bin\Debug\netstandard2.0\ref\SQLiteDemo.dll
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\bin\Debug\netstandard2.0\SQLiteDemo.pdb
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.AssemblyInfo.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.dll
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\ref\SQLiteDemo.dll
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.pdb
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageHoa.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageLoaiHoa.xaml.g.cs

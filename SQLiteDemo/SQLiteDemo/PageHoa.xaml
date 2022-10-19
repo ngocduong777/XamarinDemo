@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.PageHoa">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="lsthoa" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding Hinh}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3"/>
+                                <Label Text="{Binding TenHoa}" Grid.Column="1" Grid.Row="0" VerticalOptions="Start"/>
+                                <Label Text="{Binding GiaBan}" TextColor="red" Grid.Column="1" Grid.Row="1"/>
+                                <Label Text="{Binding MoTa}" TextColor="red" Grid.Column="1" Grid.Row="2" VerticalOptions="Start"/>
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
