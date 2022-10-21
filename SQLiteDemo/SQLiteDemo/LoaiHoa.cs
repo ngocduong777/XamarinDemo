@@ -7,7 +7,7 @@ namespace SQLiteDemo
 {
     public class LoaiHoa
     {
-        [PrimaryKey,AutoIncrement]
+        [PrimaryKey, AutoIncrement]
         public int MaLoai { get; set; }
         public String TenLoai { get; set; }
         public String Hinh { get; set; }

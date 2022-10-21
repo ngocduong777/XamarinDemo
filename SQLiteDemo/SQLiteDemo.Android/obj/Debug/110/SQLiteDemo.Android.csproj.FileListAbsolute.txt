@@ -649,3 +649,4 @@ C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo.Android\obj\Debug\1
 C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo.Android\obj\Debug\110\res\drawable\xuan_7.jpg
 C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo.Android\obj\Debug\110\res\drawable\xuan_8.jpg
 C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo.Android\obj\Debug\110\res\drawable\xuan_9.jpg
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo.Android\obj\Debug\110\res\drawable\menu.png

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.PageDangKy"
+             Title="Dang ki" IconImageSource="IconLangRUS.gif">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txthoten" Placeholder="Ho ten" />
+            <Entry x:Name="txtdangnhap1" Placeholder="Ten dang ki" />
+            <Entry x:Name="txtmatkhau1" IsPassword="true" Placeholder="Mat khau" />
+            <Button x:Name="cmddangki" Text="Dang ki" Clicked="cmddangki_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

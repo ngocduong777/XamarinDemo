@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.PageCaroHoa">
+    <CarouselPage.ItemTemplate>
+        <DataTemplate>
+            <ContentPage>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="{Binding Hinh}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3"/>
+                    <Label Text="{Binding TenHoa}" Grid.Column="1" Grid.Row="0" />
+                    <Label Text="{Binding GiaBan}" TextColor="red" Grid.Column="1" Grid.Row="1"/>
+                    <Label Text="{Binding MoTa}" TextColor="red" Grid.Column="1" Grid.Row="2" />
+
+                </Grid>
+            </ContentPage>
+        </DataTemplate>
+    </CarouselPage.ItemTemplate>
+</CarouselPage>

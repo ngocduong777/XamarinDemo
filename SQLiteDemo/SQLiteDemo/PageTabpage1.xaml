@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.PageTabpage1">
+    <TabbedPage.Children>
+        <ContentPage Title="Dang nhap" IconImageSource="IconLangENG.gif">
+            <StackLayout>
+                <Entry x:Name="txttendangnhap" Placeholder="Ten dang nhap" />
+                <Entry x:Name="txtmatkhau" IsPassword="true" Placeholder="Mat khau" />
+                <Button x:Name="cmddangnhap" Text="Dang nhap" Clicked="cmddangnhap_Clicked"/>
+            </StackLayout>
+            
+        </ContentPage>
+
+        <ContentPage Title="Dang ki" IconImageSource="IconLangRUS.gif">
+            <StackLayout>
+                <Entry x:Name="txthoten" Placeholder="Ho ten" />
+                <Entry x:Name="txtdangnhap1" Placeholder="Ten dang ki" />
+                <Entry x:Name="txtmatkhau1" IsPassword="true" Placeholder="Mat khau" />
+                <Button x:Name="cmddangki" Text="Dang ki" Clicked="cmddangki_Clicked"/>
+            </StackLayout>
+
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

@@ -24,7 +24,8 @@ namespace SQLiteDemo
             InitializeComponent();
             db = new Database();
             lsthoa.ItemsSource = db.LayDSHoaTheoLoai(lh);
-            Title = lh.MaLoai.ToString();
+            Title = lh.TenLoai;
+            IconImageSource = lh.Hinh;
         }
     }
 }

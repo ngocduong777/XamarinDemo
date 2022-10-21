@@ -34,8 +34,8 @@ namespace SQLiteDemo
         {
             InitializeComponent();
             db = new Database();
-        /*Them 1 lan thoi*/
-           /* try
+            /*Them 1 lan thoi*/
+/*            try
             {
                 db = new Database();
                 foreach (LoaiHoa lh in LoaiHoa.KhoiTao())

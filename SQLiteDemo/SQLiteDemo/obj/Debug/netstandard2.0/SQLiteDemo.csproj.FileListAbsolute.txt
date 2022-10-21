@@ -15,3 +15,11 @@ C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstanda
 C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\SQLiteDemo.pdb
 C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageHoa.xaml.g.cs
 C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageLoaiHoa.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageMasterDetail.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageMasterDetailHoa.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageTabpage1.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageDangKy.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageDangNhap.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageTabpage2.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageTabLoaiHoa.xaml.g.cs
+C:\Users\admin\source\repos\SQLiteDemo\SQLiteDemo\SQLiteDemo\obj\Debug\netstandard2.0\PageCaroHoa.xaml.g.cs

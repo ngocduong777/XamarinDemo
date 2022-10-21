@@ -15,7 +15,7 @@ namespace SQLiteDemo
             /*Chay 1 lan*/
 /*            foreach (Hoa h in Hoa.KhoiTaoDSHoa())
                 db.InsertHoa(h);*/
-            MainPage = new NavigationPage(new PageLoaiHoa());
+            MainPage = new NavigationPage( new PageMasterDetail());
         }
 
         protected override void OnStart()

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.PageMasterDetail">
+    <MasterDetailPage.Master>
+        <ContentPage Title="MENU">
+            <StackLayout Padding="5">
+                <Button x:Name="cmdLoaiHoa" Text="List Hoa" Clicked="cmdLoaiHoa_Clicked"/>
+                <Button x:Name="cmdLoaiHoa1" Text="Danh sach loai hoa MasterDetail" Clicked="cmdLoaiHoa1_Clicked"/>
+
+                <Button x:Name="cmdCapNhat" Text="Cap nhat" Clicked="cmdCapNhat_Clicked"/>
+                <Button x:Name="cmdTabpage1" Text="Tab page 1" Clicked="cmdTabpage1_Clicked"/>
+                <Button x:Name="cmdTabpage2" Text="Tab page 2" Clicked="cmdTabpage2_Clicked"/>
+                <Button x:Name="cmdTabpage3" Text="Tab page LoaiHoa" Clicked="cmdTabpage3_Clicked"/>
+
+            </StackLayout>
+            
+        </ContentPage>
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <ContentPage Title="HOA">
+            
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

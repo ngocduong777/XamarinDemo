@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.PageMasterDetailHoa">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Loai hoa">
+            <StackLayout>
+            <ListView x:Name="lstdslh" ItemSelected="lstdslh_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding Hinh}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"/>
+                                <Label Text="{Binding MaLoai}" Grid.Column="1" Grid.Row="0"/>
+                                <Label Text="{Binding TenLoai}" TextColor="red" Grid.Column="1" Grid.Row="1"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <StackLayout>
+                <StackLayout  Orientation="Horizontal" Grid.Row="2">
+                    <ImageButton x:Name="cmdMaster" Source="menu.png" HorizontalOptions="Start" WidthRequest="30" HeightRequest="30" Clicked="cmdMaster_Clicked"/>
+                <Label x:Name="lbltenloai" TextColor="red" FontSize="20"/>
+            </StackLayout>
+            <ListView x:Name="lsthoa" ItemSelected="lsthoa_ItemSelected" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Hinh}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"/>
+                                    <Label Text="{Binding MaLoai}" Grid.Column="1" Grid.Row="0"/>
+                                    <Label Text="{Binding TenLoai}" TextColor="red" Grid.Column="1" Grid.Row="1"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+            
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
