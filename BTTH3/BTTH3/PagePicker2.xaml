@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTTH3.PagePicker2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="pickCountry"
+                    Title="Pick a Country"
+                    ItemDisplayBinding="{Binding countryName}"
+                    SelectedIndexChanged="pickCountry_SelectedIndexChanged"/>
+
+            <ListView x:Name="listSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="{Binding cityImg}" Text="{Binding cityName}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

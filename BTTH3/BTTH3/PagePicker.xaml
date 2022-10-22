@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BTTH3.PagePicker">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="pickBook"
+                    Title="Pick a Book"
+                    ItemDisplayBinding="{Binding bookTitle}"
+                    SelectedIndexChanged="pickBook_SelectedIndexChanged"/>
+
+            <ListView x:Name="listSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="{Binding bookImg}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
